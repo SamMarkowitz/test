@@ -10,8 +10,8 @@ The following is an overview of what is included in the ready-made content:
     + **files:** File management and manipulations, such as: read/write, copy/move/delete, and zip/unzip.
     + **mail:** Email related content. 
     + **network:** Network related actions, such as: pinging and performing REST calls. 
-      + **remote_command_execution**
-        + **ssh:** Run SSH commands.
+    + **remote_command_execution**
+      + **ssh:** Run SSH commands.
     + **strings:** String actions and manipulations, such as: match, replace, occurrence counter. 
     + **utils:** Utility actions, such as: random number generator, sleep, uuid generator.         
   + **consul:** [Consul](https://consul.io/) has multiple components, but as a whole, it is a tool for discovering and configuring services in your infrastructure.
