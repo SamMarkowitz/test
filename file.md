@@ -1,6 +1,6 @@
 #Content
 
-The slang-content repository contains ready-made Slang flows and operations for many common tasks as well as content that integrates with several other ....
+The slang-content repository contains ready-made Slang flows and operations for many common tasks as well as content that integrates with several other systems.
 
 The following is an overview of what is included in the ready-made content:
 
@@ -8,14 +8,13 @@ The following is an overview of what is included in the ready-made content:
   + **base:** General purpose content.
     + **cmd:** Shell command content.
     + **files:** File management and manipulations, such as: read/write, copy/move/delete, and zip/unzip.
-    + **mail:** Email related content. 
+    + **mail:** Send emails. 
     + **network:** Network related actions, such as: pinging and performing REST calls. 
     + **remote_command_execution**
       + **ssh:** Run SSH commands.
     + **strings:** String actions and manipulations, such as: match, replace, occurrence counter. 
     + **utils:** Utility actions, such as: random number generator, sleep, uuid generator.         
-  + **consul:** [Consul](https://consul.io/) has multiple components, but as a whole, it is a tool for discovering and configuring services in your infrastructure.
-  Content for interacting with Consul, such as dealing with endpoints and the key/value store.
+  + **consul:** [Consul](https://consul.io/) has multiple components, but as a whole, it is a tool for discovering and configuring services in your infrastructure. This folder contains content for interacting with Consul, such as dealing with endpoints and the key/value store.
   + **coreos:** [CoreOS](https://coreos.com/) is a Linux distribution that has been rearchitected to provide features needed to run modern infrastructure stacks.
   Content for interacting with a CoreOS cluster.
   + **docker:** [Docker](https://www.docker.com/) is an open platform for developers and sysadmins to build, ship, and run distributed applications.
