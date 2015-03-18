@@ -1,6 +1,6 @@
 #Content
 
-The slang-content repository contains ready-made Slang flows and operations for many common tasks as well as content that integrates with several other systems.
+The **slang-content** repository contains ready-made Slang flows and operations for many common tasks as well as content that integrates with several other systems.
 
 The following is an overview of what is included in the ready-made content:
 
@@ -18,7 +18,7 @@ The following is an overview of what is included in the ready-made content:
   + **coreos:** [CoreOS](https://coreos.com/) is a Linux distribution that has been rearchitected to provide features needed to run modern infrastructure stacks. This folder contains content for interacting with a CoreOS cluster.
   + **docker:** [Docker](https://www.docker.com/) is an open platform for developers and sysadmins to build, ship, and run distributed applications.
     + **cadvisor:** [cAdvisor](https://github.com/google/cadvisor) provides container users an understanding of the resource usage and performance characteristics of their running containers. This folder contains content for querying cAdvisor to get usage information of Docker containers and to possibly act on the received responses.
-    + **containers:** In Docker terminology, a container is a read-write layer, plus the information about its Parent Image and some additional information like its unique id, networking configuration, and resource limits. This folder contains content for working with Docker containers, such as: start/stop/delete.
+    + **containers:** In Docker terminology, a container is a read-write layer, plus the information about its Parent Image and some additional information like its unique id, networking configuration, and resource limits. This folder contains content for working with Docker containers, such as: start,stop and delete.
     + **images:** In Docker terminology, an image is a read-only layer. This folder contains content for working with and maintaining Docker images, such as: pulling, listing, and deleting images.
     + **linux:** This folder contains content for working with Linux in Docker, such as: checking disk space and validating SSH access.
     + **maintenance:** This folder contains content for maintaining a clean Docker environment, such as: retrieving and acting upon the status of MySQL and Linux checks.
