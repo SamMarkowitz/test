@@ -5,7 +5,7 @@ The slang-content repository contains ready-made Slang flows and operations for 
 The following is an overview of what is included in the ready-made content:
 
 + **slang**
-  + **base:** General purpose content.
+  + **base:** This folder contains content for general purpose content.
     + **cmd:** Shell command content.
     + **files:** File management and manipulations, such as: read/write, copy/move/delete, and zip/unzip.
     + **mail:** Email related content. 
